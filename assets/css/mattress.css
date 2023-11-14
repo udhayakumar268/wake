@@ -28,7 +28,7 @@
 }
 .navbar-nav {
   display: flex;
-  margin-left: 30px;
+  margin-left: 90px;
 }
 .navbar-nav li {
   list-style: none;
@@ -38,7 +38,7 @@
   
   text-decoration: none;
   color: rgb(0, 0, 0);
-  font-size: 24px;
+  font-size: 23px;
   font-family: Fascinate;
   font-style: normal;
   font-weight: 900;
@@ -386,6 +386,15 @@ a.dropdown-item:hover{
       margin: 0px;
     }
   }
+
+  @media only screen and (max-width: 1024px){
+    .navbar-nav li a{
+      font-size: 13px;
+    }
+  }
+
+
+
   @media only screen and (max-width: 950px) and (min-width :460px) {
     .footer .col {
       width: 33%;
@@ -527,9 +536,3 @@ a.dropdown-item:hover{
   margin: 1px 0;
   box-sizing: border-box;
  }
-
-
-
- 
-
-
