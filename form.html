@@ -4,34 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
-    <link rel="stylesheet" href="mattress.css">
-    <link rel="icon" href="images/bed/favicon.png" type="images/png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/mattress.css">
+    <link rel="icon" href="assets/images/logo/loho.png" type="image">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body style="background-image: url(images/background/d3.jpg);">
+<body style="background-color: #ffdb98;">
     <div class="back text-end">
-        <a href="mattress.html">
+        <a href="index.html">
         <button type="submit" name="back"  style="background-color:  #ff0000;height: 50px;width: 60px;font-size: 20px;"><i class="fa-solid fa-xmark" style="color: #000000;"></i></button></a>
     </div>
     <div class="form" >
         <h2>Buyer Details</h2>
-        <p >Please enter the required details</p>
         <form method="post" action="form.php">
-        <label for="uname"> Full Name:</label><br>
-        <input type="text" id="uname" name="uname"><br>
-        <label for="number">Phone:</label><br>
-        <input type="text" id="phone" name="phone"><br>
-        <label for="number">Mail Id:</label><br>
-        <input type="text" id="mail" name="mail" ><br>
-        <label for="message" >Message:</label><br>
-        <textarea name="message" style="width:405px; height:100px;"></textarea>
-        <ul>
-        <div class="text-end ">
-        <li><button type="submit" name="submit"  style="background-color: rgb(0, 0, 0);color: white;">submit</button></li>
-        </div>
-        </ul>
-    </form>    
+            <form class="row g-3">
+                <div class="col-md-12">
+                <label for="inputuname" class="form-label">Full Name:</label>
+                <input type="text" class="form-control" id="inputuname">
+                </div>
+                <div class="col-md-12">
+                <label for="inputPhone" class="form-label">Phone:</label>
+                <input type="text" class="form-control" id="inputPhone">
+                </div>
+                <div class="col-md-12">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+                </div> 
+                <div class="col-md-12">
+                    <label for="inputmessage" class="form-label">Message</label>
+                    <textarea name="message" style="width: 100%; height:100px;"></textarea>
+                </div>
+                <div class="col-12 text-center">
+                <button type="submit" name="submit"  class="btn btn-primary">Submit</button>
+                </div>
+            </form>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
