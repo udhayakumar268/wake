@@ -28,6 +28,7 @@
 }
 .navbar-nav {
   display: flex;
+  margin-left: 100px;
 }
 .navbar-nav li {
   list-style: none;
@@ -37,7 +38,7 @@
   
   text-decoration: none;
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 21px;
   font-family: Fascinate;
   font-style: normal;
   font-weight: 900;
@@ -388,7 +389,8 @@ a.dropdown-item:hover{
 
   @media only screen and (max-width: 1024px){
     .navbar-nav li a{
-      font-size: 13px;
+      font-size: 16px;
+      margin-left: -50px;
     }
   }
 
@@ -418,6 +420,9 @@ a.dropdown-item:hover{
     }
     .contacts{
       margin-left: 0px !important;
+    }
+    #navbarSupportedContent.navbar-collapse.collapse.show{
+      margin-left: -110px;
     }
    
   ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
