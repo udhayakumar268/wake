@@ -28,7 +28,6 @@
 }
 .navbar-nav {
   display: flex;
-  margin-left: 30px;
 }
 .navbar-nav li {
   list-style: none;
