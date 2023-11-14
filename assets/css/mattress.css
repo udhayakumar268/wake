@@ -390,7 +390,7 @@ a.dropdown-item:hover{
    @media only screen and (max-width:1280px) and (min-width:1024px){
     .navbar-nav li a{
       font-size: 16px;
-      margin-left: -50px;
+      margin-left: -90px;
     }
   }
 
